@@ -182,15 +182,12 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.825;
   text-shadow: 4px 4px 0 var(--accent-color);
+  color: var(--footer-title-color, var(--title-color));
 }
 
 .hero-headline {
   color: var(--title-color);
   margin-left: var(--header-margin-left);
-}
-
-.footer-headline {
-  color: var(--footer-title-color, var(--title-color));
 }
 
 /* ===== Заголовки карточек ===== */
