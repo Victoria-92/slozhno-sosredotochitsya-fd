@@ -1,4 +1,4 @@
-/* Тёмная тема (принудительное переключение через .theme-dark) */
+/* Тёмная тема (принудительное переключение через класс .theme-dark) */
 :root.theme-dark {
   --page-bg-color: var(--approximately-black);
   --background-image: url("../images/cover-image-dark.png");
@@ -20,10 +20,5 @@
   --decor-bg-color: var(--real-red);
   --decor-text-color: var(--approximately-black);
   --footer-title-color: #db00ff;
-}
-
-/* Кнопка REC, показываем только в тёмной теме */
-.theme-dark .rec_empty::before,
-.theme-dark .rec_empty::after {
-  display: block;
+  --rec-display: block;
 }

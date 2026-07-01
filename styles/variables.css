@@ -29,6 +29,7 @@
   --decor-bg-color: var(--real-red);
   --decor-text-color: var(--approximately-black);
   --footer-title-color: #db00ff; 
+  --rec-display: block;
 
   /* Размеры/отступы ===== */
   --regular-font-size: 18px;
@@ -38,7 +39,7 @@
   --min-height: 668px;
   --header-margin-left: min(10px, 20px - 2.6vw);
   --section-child-margin: 40px;
-  --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
+  --project-font-family: "IBM Plex Mono", monospace;
   --corner-thickness: 1px;
   --rec_empty_x_pos: 30px;
 }
@@ -46,5 +47,5 @@
 /* ===== Кнопка REC (только для тёмной темы) ===== */
 .rec_empty::before,
 .rec_empty::after {
-  display: block;
+  display: var(--rec-display);
 }

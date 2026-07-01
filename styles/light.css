@@ -23,9 +23,10 @@
   --decor-bg-color: var(--basic-pink);
   --decor-text-color: var(--almost-black);
   --footer-title-color: var(--title-pink);
+  --rec-display: none;
 }
 
-/* 2. Авто-режим (prefers-color-scheme: light)*/
+/* 2. Авто-режим (prefers-color-scheme: light) */
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: var(--basic-pink);
@@ -49,15 +50,6 @@
     --decor-bg-color: var(--basic-pink);
     --decor-text-color: var(--almost-black);
     --footer-title-color: var(--title-pink);
-  }
-}
-
-/* ===== Кнопка REC в светлой теме,скрыта ===== */
-.theme-light .rec_empty::before,
-.theme-light .rec_empty::after,
-@media (prefers-color-scheme: light) {
-  .rec_empty::before,
-  .rec_empty::after {
-    display: none !important;
+    --rec-display: none;
   }
 }
