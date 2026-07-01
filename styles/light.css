@@ -19,10 +19,10 @@
   --border-color-opacity: #32312D66;
   --background-image: url("../images/cover-image-light.png");
   --deco-color: var(--almost-black);
-  --rec-color: var(--almost-black);   
-  --decor-bg-color: var(--basic-pink);          
-  --decor-text-color: var(--almost-black);       
-  --footer-title-color: var(--title-pink);       
+  --rec-color: var(--almost-black);
+  --decor-bg-color: var(--basic-pink);
+  --decor-text-color: var(--almost-black);
+  --footer-title-color: var(--title-pink);
 }
 
 /* 2. Авто-режим (prefers-color-scheme: light)*/
