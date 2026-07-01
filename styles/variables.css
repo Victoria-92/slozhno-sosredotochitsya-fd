@@ -1,4 +1,50 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+/* Переменные по умолчанию (тёмная тема) */
+:root {
+  /* ===== Цвета ===== */
+  --basic-pink: #FF8DCB;
+  --title-pink: #FFC2E6;
+  --almost-white-bg: #FFF1F7;
+  --real-red: #ff0070;
+  --approximately-black: #000028;
+  --almost-black: #353430;
+
+  /* Основные переменные для тёмной темы ===== */
+  --page-bg-color: var(--approximately-black);
+  --background-image: url(../images/cover-image-dark.png);
+  --accent-color: var(--real-red);
+  --title-color: #db00ff;
+  --button-color: var(--real-red);
+  --border-color-opacity: rgba(255, 0, 112, 0.4);
+  --question-color: var(--real-red);
+  --question-bg-color: var(--approximately-black);
+  --answer-title-color: var(--approximately-black);
+  --answer-title-bg-color: var(--real-red);
+  --answer-text-color: #f1b2ce;
+  --advice-title-color: var(--approximately-black);
+  --advice-title-bg-color: var(--real-red);
+  --header-text-bg-color: var(--real-red);
+  --header-text-color: var(--approximately-black);
+  --deco-color: var(--real-red);
+  --rec-color: var(--real-red);
+  --decor-bg-color: var(--real-red);
+  --decor-text-color: var(--approximately-black);
+  --footer-title-color: #db00ff; 
+
+  /* Размеры/отступы ===== */
+  --regular-font-size: 18px;
+  --regular-line-height: 100%;
+  --regular-gap: 10px;
+  --decoration-gap: clamp(10px, 2.65vw, 20px);
+  --min-height: 668px;
+  --header-margin-left: min(10px, 20px - 2.6vw);
+  --section-child-margin: 40px;
+  --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
+  --corner-thickness: 1px;
+  --rec_empty_x_pos: 30px;
+}
+
+/* ===== Кнопка REC (только для тёмной темы) ===== */
+.rec_empty::before,
+.rec_empty::after {
+  display: block;
+}

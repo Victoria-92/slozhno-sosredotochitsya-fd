@@ -1,12 +1,29 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
+/* Тёмная тема (принудительное переключение через .theme-dark) */
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --page-bg-color: var(--approximately-black);
+  --background-image: url("../images/cover-image-dark.png");
+  --accent-color: var(--real-red);
+  --title-color: #db00ff;
+  --button-color: var(--real-red);
+  --border-color-opacity: #FF007066;
+  --question-color: var(--real-red);
+  --question-bg-color: var(--approximately-black);
+  --answer-title-color: var(--approximately-black);
+  --answer-title-bg-color: var(--real-red);
+  --answer-text-color: #f1b2ce;
+  --advice-title-color: var(--approximately-black);
+  --advice-title-bg-color: var(--real-red);
+  --header-text-bg-color: var(--real-red);
+  --header-text-color: var(--approximately-black); 
+  --deco-color: var(--real-red);
+  --rec-color: var(--real-red);
+  --decor-bg-color: var(--real-red);
+  --decor-text-color: var(--approximately-black);
+  --footer-title-color: #db00ff;
+}
+
+/* Кнопка REC, показываем только в тёмной теме */
+.theme-dark .rec_empty::before,
+.theme-dark .rec_empty::after {
+  display: block;
 }
