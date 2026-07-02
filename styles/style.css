@@ -164,10 +164,6 @@
   align-items: center;
 }
 
-.footer-headline {
-  margin: 0;
-}
-
 /* Шрифты */
 .question {
   font-size: var(--regular-font-size);
