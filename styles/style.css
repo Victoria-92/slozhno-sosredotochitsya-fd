@@ -104,7 +104,7 @@
 .main {
   margin-left: var(--decoration-gap);
   margin-right: var(--decoration-gap);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* ===== Единый класс для всех секций (база) ===== */
@@ -374,6 +374,12 @@
     grid-column: 1 / 4;
     margin-bottom: 0;
   }
+
+  .main {
+    margin-left: var(--decoration-gap);
+    margin-right: var(--decoration-gap);
+    margin-bottom: 30px;
+}
 }
 
 /* ===== Медиа-запросы (1024px) ===== */
