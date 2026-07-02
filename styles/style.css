@@ -104,6 +104,8 @@
 .main {
   margin-left: var(--decoration-gap);
   margin-right: var(--decoration-gap);
+  padding-bottom: 60px;
+
 }
 
 /* ===== Единый класс для всех секций (база) ===== */
