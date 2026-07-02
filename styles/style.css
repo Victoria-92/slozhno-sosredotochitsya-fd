@@ -304,7 +304,6 @@
 
   .footer {
     min-height: 1024px;
-    margin-top:60px;
   }
 
   .sunset_pic {
@@ -334,6 +333,10 @@
   .header-description {
     width: calc(50% - 20px);
     justify-self: right;
+  }
+
+  .question_why {
+    padding-top: 20px;
   }
 
   .question_what {
@@ -402,10 +405,6 @@
   .section_why {
     margin-top: 40px;
     gap: 10px;
-  }
-
-  .question_why {
-    margin-top: 20px;
   }
 
   .answers_why {
